@@ -1,0 +1,36 @@
+.box-contact {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid grey 2px;
+    padding-top: 10px;
+}
+
+.item img {
+    width: 50px;
+    height: 50px;
+    text-align: justify;
+}
+
+.item h3 {
+    width: 150px;
+    text-align: justify;
+}
+
+.item p {
+    width: 200px;
+    text-align: justify;
+}
+
+.box-roots {
+    display: flex;
+    justify-content: center;
+}

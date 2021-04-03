@@ -1,0 +1,151 @@
+.flex-conteiner-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu a {
+    background-color:rgb(255, 255, 255);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 54);
+    border-radius: 20%;
+    box-shadow: 10px 5px 5px rgb(230, 230, 230);
+    
+}
+
+.menu a:hover {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,147,115,1) 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-conteiner-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    background-color:coral;
+    width: 400px;
+    text-align: center;
+    margin: 25px;
+}
+
+.item {
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+}
+
+.map {
+    width: 100%;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-footer {
+    margin-right: 25px;
+}
+
+.form-footer {
+    margin-left: 25px;
+}
+
+.transparent {
+    position: relative;
+    padding: 60px 50px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/414/387/non_2x/giraffe-in-the-zoo-vector.jpg");
+    background-size: cover;
+}
+
+.transparent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, .5);
+}
+
+.form-inner {
+    position: relative;
+}
+
+.form-inner h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form-inner label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(228, 228, 228 .1);
+    text-transform: uppercase;
+    color: white;
+}
+
+.form-inner input {
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0;
+    font-size: 15px;
+    line-height: 30px;
+    background: rgb(0, 0, 0, .3);
+    color: white;
+    font-weight: 100;
+    margin: 10px 0px 15px 0px;
+
+}
+
+.form-inner input[type="submit"]{
+    background: coral;
+    text-transform: uppercase;
+}
+
+.form-inner textarea {
+    margin: 10px 0px 15px 0px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-width: 0;
+    font-size: 15px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-weight: 100;
+    resize: none;
+}
+
+
+
+
+
+
+
+
